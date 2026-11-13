@@ -75,7 +75,7 @@ st.title("운전자 이상행동 탐지 및 원인 분별 모니터")
 st.caption("Stage 1: GRU-Autoencoder 이상 탐지 | Stage 2: 1D-CNN+GRU (MC-Dropout)")
 
 base_dir = os.path.dirname(os.path.abspath(__file__))
-dataset_dir = os.path.join(base_dir, "dataset")
+dataset_dir = base_dir
 
 EVENT_NAMES = [
     "Normal (정상 주행)",
